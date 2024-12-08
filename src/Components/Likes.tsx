@@ -23,7 +23,7 @@ const Likes = () => {
           </div>
         </div>
       </div>
-      {/* portion */}
+      
 
      
       </div>

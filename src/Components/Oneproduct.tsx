@@ -1,5 +1,5 @@
 import React from "react";
-
+import Image from "next/image";
 const Oneproduct: React.FC = () => {
   return (
     <div className="max-w-7xl bg-slate-400 mx-auto p-4">
@@ -7,10 +7,12 @@ const Oneproduct: React.FC = () => {
         {/* Left Section */}
         <div className="space-y-4">
           <div className="relative w-full h-64 md:h-96 bg-gray-200 rounded-md">
-            <img
+            <Image
               src="/images/unsplash_QANOF9iJlFs.png"
               alt="Placeholder"
               className="object-cover w-full h-full rounded-md"
+              width={500}
+              height={500}
             />
           </div>
           </div>

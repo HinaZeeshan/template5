@@ -1,21 +1,6 @@
-{/* <nav className="text-sm text-gray-500 mb-4">
-          <ol className="flex items-center space-x-2">
-            <li>
-              <a href="#" className="hover:text-gray-800">
-                Product
-              </a>
-            </li>
-            <li>/</li>
-            <li>
-              <a href="#" className="hover:text-gray-800">
-                productdetail
-              </a>
-            </li>
-            <li>/</li>
-            <li className="text-gray-800 font-medium">Havic HV G-92 Gamepad</li>
-          </ol>
-        </nav> */} 
-        import React from "react";
+
+        import Image from "next/image";
+import React from "react";
 
         const ProductDetails = () => {
           return (
@@ -23,9 +8,11 @@
               {/* Left Section - Image */}
               <div className="w-full lg:w-1/2">
                 <div className="relative">
-                  <img
+                  <Image
                     src="/images/single-product-1-cover-2.jpg"
                     alt="Product"
+                    width={800}
+                    height={774}
                     className="w-full rounded-lg"
                   />
                   <button className="absolute top-1/2 left-2 transform -translate-y-1/2 bg-white p-2 rounded-full shadow hover:bg-gray-100">
@@ -62,19 +49,25 @@
                   </button>
                 </div>
                 <div className="flex gap-2 mt-4">
-                  <img
+                  <Image
                     src="/images/single-product-1-cover-2.jpg"
                     alt="Thumbnail 1"
+                    width={800}
+                    height={774}
                     className="w-20 h-20 rounded-lg cursor-pointer hover:border-2 hover:border-blue-500"
                   />
-                  <img
+                  <Image
                     src="/images/single-product-1-thumb-1.jpg"
                     alt="Thumbnail 2"
+                    width={800}
+                    height={774}
                     className="w-20 h-20 rounded-lg cursor-pointer hover:border-2 hover:border-blue-500"
                   />
-                  <img
+                  <Image
                     src="/images/product-cover-5 (19).png"
                     alt="Thumbnail 3"
+                    width={800}
+                    height={774}
                     className="w-20 h-20 rounded-lg cursor-pointer hover:border-2 hover:border-blue-500"
                   />
                 </div>

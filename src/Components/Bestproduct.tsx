@@ -1,5 +1,7 @@
 import React from "react";
 import { Montserrat } from "next/font/google";
+import Image from "next/image";
+import Link from "next/link";
 const montseerat = Montserrat({
   subsets: ["latin"],
   weight: "700",
@@ -20,13 +22,15 @@ const Bestproduct = () => {
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-wrap -m-4">
           <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <a className="block relative h-[450px] w-72 rounded overflow-hidden">
-              <img
+            <Link href="" className="block relative h-[450px] w-72 rounded overflow-hidden">
+              <Image
+               width={800}
+               height={774}
                 alt="ecommerce"
                 className="object-cover object-center hover:scale-105 transition-transform duration-500 ease-in-out  w-full h-full block"
                 src="/images/product-cover-5 (13).png"
               />
-            </a>
+            </Link>
             <div className="mt-4 mr-20 flex flex-col justify-center items-center">
               <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
                 CATEGORY
@@ -39,13 +43,15 @@ const Bestproduct = () => {
            
           </div>
           <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <a className="block relative h-[450px] w-72 rounded overflow-hidden">
-              <img
+            <Link href="" className="block relative h-[450px] w-72 rounded overflow-hidden">
+              <Image
+              width={700}
+              height={800}
                 alt="ecommerce"
                 className="object-cover object-center hover:scale-105 transition-transform duration-500 ease-in-out  w-full h-full block"
                 src="/images/product-cover-5 (16).png"
               />
-            </a>
+            </Link>
             <div className="mt-4 mr-20 flex flex-col justify-center items-center" >
               <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
                 CATEGORY
@@ -58,13 +64,15 @@ const Bestproduct = () => {
             
           </div>
           <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <a className="block relative h-[450px] w-72 rounded overflow-hidden">
-              <img
+            <Link href="" className="block relative h-[450px] w-72 rounded overflow-hidden">
+              <Image
+              width={700}
+              height={800}
                 alt="ecommerce"
                 className="object-cover object-center hover:scale-105 transition-transform duration-500 ease-in-out  w-full h-full block"
                 src="/images/product-cover-5 (17).png"
               />
-            </a>
+            </Link>
             <div className="mt-4 mr-20 flex flex-col justify-center items-center">
               <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
                 CATEGORY
@@ -77,13 +85,15 @@ const Bestproduct = () => {
            
           </div>
           <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <a className="block relative h-[450px] w-72 rounded overflow-hidden">
-              <img
+            <Link href="" className="block relative h-[450px] w-72 rounded overflow-hidden">
+              <Image
+              width={700}
+              height={800}
                 alt="ecommerce"
                 className="object-cover object-center hover:scale-105 transition-transform duration-500 ease-in-out  w-full h-full block"
                 src="/images/product-cover-5 (20).png"
               />
-            </a>
+            </Link>
             <div className="mt-4 mr-20 flex flex-col justify-center items-center">
               <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
                 CATEGORY
@@ -96,13 +106,15 @@ const Bestproduct = () => {
            
           </div>
           <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <a className="block relative h-[450px] w-72 rounded overflow-hidden">
-              <img
+            <Link href="" className="block relative h-[450px] w-72 rounded overflow-hidden">
+              <Image
+              width={700}
+              height={800}
                 alt="ecommerce"
                 className="object-cover object-centerhover:scale-105 transition-transform duration-500 ease-in-out  w-full h-full block"
                 src="/images/product-cover-5 (23).png"
               />
-            </a>
+            </Link>
             <div className="mt-4 mr-20 flex flex-col justify-center items-center">
               <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
                 CATEGORY
@@ -115,14 +127,16 @@ const Bestproduct = () => {
             
           </div>
           <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <a className="block relative h-[450px] w-72 rounded overflow-hidden">
-              <img
+            <Link href="" className="block relative h-[450px] w-72 rounded overflow-hidden">
+              <Image
+              width={700}
+              height={800}
                 alt="ecommerce"
                 className="object-cover object-center hover:scale-105 transition-transform duration-500 ease-in-out  w-full h-full block"
                 src="/images/single-product-1-thumb-1.jpg"
               
               />
-            </a>
+            </Link>
             <div className="mt-4 mr-20 flex flex-col justify-center items-center">
               <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
                 CATEGORY
@@ -135,13 +149,15 @@ const Bestproduct = () => {
            
           </div>
           <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <a className="block relative h-[450px] w-72 rounded overflow-hidden">
-              <img
+            <Link href="" className="block relative h-[450px] w-72 rounded overflow-hidden">
+              <Image
+              width={700}
+              height={800}
                 alt="ecommerce"
                 className="object-cover object-center hover:scale-105 transition-transform duration-500 ease-in-out  w-full h-full block"
                 src="/images/product-cover-5 (13).png"
               />
-            </a>
+            </Link>
             <div className="mt-4 mr-20 flex flex-col justify-center items-center">
               <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
                 CATEGORY
@@ -154,13 +170,15 @@ const Bestproduct = () => {
            
           </div>
           <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <a className="block relative h-[450px] w-72 rounded overflow-hidden">
-              <img
+            <Link href="" className="block relative h-[450px] w-72 rounded overflow-hidden">
+              <Image
+              width={700}
+              height={800}
                 alt="ecommerce"
                 className="object-cover object-center hover:scale-105 transition-transform duration-500 ease-in-out  w-full h-full block"
                 src="/images/product-cover-5 (15).png"
               />
-            </a>
+            </Link>
             <div className="mt-4 mr-20 flex flex-col justify-center items-center">
               <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
                 CATEGORY

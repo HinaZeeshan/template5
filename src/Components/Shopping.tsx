@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 
 const Shopping = () => {
@@ -15,9 +16,9 @@ const Shopping = () => {
       <div className="flex justify-between items-center mb-6">
         <h1 className="text-2xl font-bold">Shop</h1>
         <nav className="text-sm text-gray-500">
-          <a href="/" className="hover:text-gray-700">
+          <Link href="/" className="hover:text-gray-700">
             Home
-          </a>{" "}
+          </Link>{" "}
           / <span className="text-gray-700">Shop</span>
         </nav>
       </div>

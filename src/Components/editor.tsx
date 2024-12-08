@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 
 import { Montserrat } from "next/font/google";
+import Link from "next/link";
 const montseerat = Montserrat({
   subsets: ["latin"],
   weight: "700",
@@ -26,43 +27,51 @@ const Editor = () => {
         <div className="flex flex-col lg:flex-row -m-4">
           <div className="grid grid-col-1 lg:grid-flow-col ml-10 gap-4 ">
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-              <a className="block relative h-[630px] w-[450px] rounded-lg overflow-hidden">
-                <img
+              <Link href=""  className="block relative h-[630px] w-[450px] rounded-lg overflow-hidden">
+                <Image
+                width={800}
+                height={850}
                   alt="ecommerce"
                   id="Image"
                   className="object-cover object-center   w-full h-full block"
                   src="/images/filter.png"
                 />
-              </a>
+              </Link>
             </div>
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-              <a className="block relative h-[630px] w-[450px] rounded-lg overflow-hidden">
-                <img
+              <Link href=""  className="block relative h-[630px] w-[450px] rounded-lg overflow-hidden">
+                <Image
+                width={800}
+                height={850}
                   alt="ecommerce"
                   className="object-cover object-center hover:scale-105 transition-transform duration-500 ease-in-out  w-full h-full block"
                   src="/images/filter (1).png"
                 />
-              </a>
+              </Link>
             </div>
           </div>
           <div className="relative left-10">
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-              <a className="block relative h-[300px] w-[400px] rounded-lg overflow-hidden">
-                <img
+              <Link href=""  className="block relative h-[300px] w-[400px] rounded-lg overflow-hidden">
+                <Image
+                width={800}
+                height={850}
                   alt="ecommerce"
                   className="object-cover object-center hover:scale-105 transition-transform duration-500 ease-in-out  w-full h-full block"
                   src="/images/filter (2).png"
                 />
-              </a>
+              </Link>
             </div>
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-              <a className="block relative h-[300px] w-[400px] rounded-lg overflow-hidden">
-                <img
+              <Link href=""  className="block relative h-[300px] w-[400px] rounded-lg overflow-hidden">
+                <Image
+                width={800}
+                height={850}
                   alt="ecommerce"
                   className="object-cover object-center hover:scale-105 transition-transform duration-500 ease-in-out  w-full h-full block "
                   src="/images/media bg-cover.png"
                 />
-              </a>
+              </Link>
             </div>
           </div>
         </div>
