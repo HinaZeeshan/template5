@@ -13,9 +13,7 @@ const Post = () => {
 
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col">
-            <div className="h-1 bg-gray-200 rounded overflow-hidden">
-             
-            </div>
+           
            
             <div className="flex flex-col justify-center items-center">
          

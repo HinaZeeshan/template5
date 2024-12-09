@@ -1,32 +1,22 @@
 import React from "react";
 import Image from "next/image";
-import { Montserrat } from "next/font/google";
 import Link from "next/link";
-const montseerat = Montserrat({
-  subsets: ["latin"],
-  weight: "700",
-});
-const Bestselling = () => {
+const Teamgallery = () => {
   return (
-  
+    <div>
+      {/* Header Section */}
+      <header className="text-center py-8 bg-white shadow-md">
+        <h2 className="text-sm uppercase text-gray-500">What We Do</h2>
+        <h1 className="text-3xl font-bold mt-2">Innovation tailored for you</h1>
+      </header>
 
-    <section className="text-gray-600   pt-[80px] pb-[80px] gap-6 body-font">
-      <div className="flex flex-col justify-center items-center">
-        <h4
-          className={`${montseerat.className} text-[#252B42] font-400 text-[20px] `}
-        >
-          {" "}
-          Featured Products
-        </h4>
-        <h3
-          className={`${montseerat.className} font-bold text-[34px] text-[#252B42]`}
-        >
-          BESTSELLER PRODUCTS
-        </h3>
-        <p className={`${montseerat.className} text-sm text-[#252B42]`}>
-          Problems trying to resolve the conflict between{" "}
-        </p>
+      {/* Navigation Path */}
+      <div className="bg-gray-50 py-4">
+        <div className="container mx-auto px-4">
+          <p className="text-sm text-gray-600">Home / Team</p>
+        </div>
       </div>
+      {/* grid */}
 
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-wrap -m-4">
@@ -239,9 +229,9 @@ const Bestselling = () => {
             </div>
           </div>
         </div>
-      </div>
-    </section>
+        </div>
+    </div>
   );
 };
 
-export default Bestselling;
+export default Teamgallery;
