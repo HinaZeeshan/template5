@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
+
 const products = [
   {
     id: 1,
@@ -115,7 +116,14 @@ const products = [
 const Collection = () => {
   return (
     <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2">
-      {products.map((product) => (
+     
+    
+     
+     
+     
+     
+     
+{products.map((product) => (
         <div
           key={product.id}
           className="border rounded-lg p-4 flex flex-col items-center shadow-lg"
@@ -123,8 +131,8 @@ const Collection = () => {
           <Image
             src={product.image}
             alt={product.name}
-            width={288} // Example: Adjust as per your requirements
-            height={450} // Example: Adjust as per your requirements
+            width={288} 
+            height={450} 
             className="rounded-lg mb-4 object-cover"
           />
           <h3 className="text-lg font-bold">{product.name}</h3>
@@ -146,7 +154,7 @@ const Collection = () => {
             ))}
           </div>
         </div>
-      ))}
+      ))} 
 
       <nav aria-label="Page navigation ">
         <ul className="flex  justify-center items-center mx-auto h-10 text-base">
