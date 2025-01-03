@@ -111,9 +111,10 @@ const Team = () => {
     </div>
   </div>
 </section>
-<div className='container flex flex-col justify-center items-center bg-slate-200 mx-auto'>
-    <h1 className='text-2xl'>Big Companies Are Here</h1>
-    <p>Problemstrying to resolve the conflict between 
+<div className='container flex flex-col justify-center items-center bg-slate-200 mx-auto mb-10'>
+    <h1 className='text-2xl leading-10'>Big Companies Are Here</h1>
+    <p className=' text-center m-2 '>Problemstrying to resolve the conflict between 
+    the two major realms of Classical physics Problemstrying to resolve the conflict between 
     the two major realms of Classical physics: Newtonian mechanics </p>
 </div>
     </div>

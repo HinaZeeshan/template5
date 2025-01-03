@@ -12,7 +12,7 @@ const Bestproduct = () => {
       <div className="flex flex-col justify-center items-center">
       
         <h3
-          className={`${montseerat.className} font-bold text-[34px] text-[#252B42]`}
+          className={`${montseerat.className} font-bold text-[20px] sm:text-[28px] lg:text-[34px] text-[#252B42]`}
         >
           BESTSELLER PRODUCTS
         </h3>

@@ -18,218 +18,95 @@ const Teamgallery = () => {
       </div>
       {/* grid */}
 
-      <div className="container px-5 py-24 mx-auto">
-        <div className="flex flex-wrap -m-4">
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <Link href="" className="block relative h-[450px] w-72 rounded overflow-hidden">
-              <Image
-              width={500}
-              height={500}
-                alt="ecommerce"
-                className="object-cover object-center hover:scale-105 transition-transform duration-500 ease-in-out  w-full h-full block"
-                src="/images/product-cover-5.png"
-              />
-            </Link>
-            <div className="mt-4 mr-20 flex flex-col justify-center items-center">
-              <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
-                CATEGORY
-              </h3>
-              <h2 className="text-gray-900 title-font text-lg font-medium">
-                The Catalyzer
-              </h2>
-              <p className="mt-1">$16.00</p>
-            </div>
-            <div className="flex justify-center gap-1 mr-16 mt-2 ">
-              <span className="flex w-3 h-3 bg-blue-600 rounded-full me-1.5 flex-shrink-0"></span>
-              <span className="flex w-3 h-3 bg-purple-500 rounded-full me-1.5 flex-shrink-0"></span>
-              <span className="flex w-3 h-3 bg-indigo-500 rounded-full me-1.5 flex-shrink-0"></span>
-              <span className="flex w-3 h-3 bg-teal-500 rounded-full me-1.5 flex-shrink-0"></span>
-            </div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <Link href="" className="block relative h-[450px] w-72 rounded overflow-hidden">
-              <Image
-              width={500}
-              height={500}
-                alt="ecommerce"
-                className="object-cover object-center hover:scale-105 transition-transform duration-500 ease-in-out  w-full h-full block"
-                src="/images/product-cover-5 (1).png"
-              />
-            </Link>
-            <div className="mt-4 mr-20 flex flex-col justify-center items-center" >
-              <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
-                CATEGORY
-              </h3>
-              <h2 className="text-gray-900 title-font text-lg font-medium">
-                Shooting Stars
-              </h2>
-              <p className="mt-1">$21.15</p>
-            </div>
-            <div className="flex justify-center gap-1 mr-16 mt-2">
-              <span className="flex w-3 h-3 bg-blue-600 rounded-full me-1.5 flex-shrink-0"></span>
-              <span className="flex w-3 h-3 bg-purple-500 rounded-full me-1.5 flex-shrink-0"></span>
-              <span className="flex w-3 h-3 bg-indigo-500 rounded-full me-1.5 flex-shrink-0"></span>
-              <span className="flex w-3 h-3 bg-teal-500 rounded-full me-1.5 flex-shrink-0"></span>
-            </div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <Link href="" className="block relative h-[450px] w-72 rounded overflow-hidden">
-              <Image
-              width={500}
-              height={500}
-                alt="ecommerce"
-                className="object-cover object-center hover:scale-105 transition-transform duration-500 ease-in-out  w-full h-full block"
-                src="/images/product-cover-5 (2).png"
-              />
-            </Link>
-            <div className="mt-4 mr-20 flex flex-col justify-center items-center">
-              <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
-                CATEGORY
-              </h3>
-              <h2 className="text-gray-900 title-font text-lg font-medium">
-                Neptune
-              </h2>
-              <p className="mt-1">$12.00</p>
-            </div>
-            <div className="flex justify-center gap-1 mr-16 mt-2 ">
-              <span className="flex w-3 h-3 bg-blue-600 rounded-full me-1.5 flex-shrink-0"></span>
-              <span className="flex w-3 h-3 bg-purple-500 rounded-full me-1.5 flex-shrink-0"></span>
-              <span className="flex w-3 h-3 bg-indigo-500 rounded-full me-1.5 flex-shrink-0"></span>
-              <span className="flex w-3 h-3 bg-teal-500 rounded-full me-1.5 flex-shrink-0"></span>
-            </div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <Link href="" className="block relative h-[450px] w-72 rounded overflow-hidden">
-              <Image
-              width={500}
-              height={500}
-                alt="ecommerce"
-                className="object-cover object-center hover:scale-105 transition-transform duration-500 ease-in-out  w-full h-full block"
-                src="/images/product-cover-5 (3).png"
-              />
-            </Link>
-            <div className="mt-4 mr-20 flex flex-col justify-center items-center">
-              <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
-                CATEGORY
-              </h3>
-              <h2 className="text-gray-900 title-font text-lg font-medium">
-                The 400 Blows
-              </h2>
-              <p className="mt-1">$18.40</p>
-            </div>
-            <div className="flex justify-center gap-1 mr-16 mt-2">
-              <span className="flex w-3 h-3 bg-blue-600 rounded-full me-1.5 flex-shrink-0"></span>
-              <span className="flex w-3 h-3 bg-purple-500 rounded-full me-1.5 flex-shrink-0"></span>
-              <span className="flex w-3 h-3 bg-indigo-500 rounded-full me-1.5 flex-shrink-0"></span>
-              <span className="flex w-3 h-3 bg-teal-500 rounded-full me-1.5 flex-shrink-0"></span>
-            </div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <Link href="" className="block relative h-[450px] w-72 rounded overflow-hidden">
-              <Image
-              width={500}
-              height={500}
-                alt="ecommerce"
-                className="object-cover object-centerhover:scale-105 transition-transform duration-500 ease-in-out  w-full h-full block"
-                src="/images/product-cover-5 (8).png"
-              />
-            </Link>
-            <div className="mt-4 mr-20 flex flex-col justify-center items-center">
-              <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
-                CATEGORY
-              </h3>
-              <h2 className="text-gray-900 title-font text-lg font-medium">
-                The Catalyzer
-              </h2>
-              <p className="mt-1">$16.00</p>
-            </div>
-            <div className="flex justify-center gap-1 mr-16 mt-2 ">
-              <span className="flex w-3 h-3 bg-blue-600 rounded-full me-1.5 flex-shrink-0"></span>
-              <span className="flex w-3 h-3 bg-purple-500 rounded-full me-1.5 flex-shrink-0"></span>
-              <span className="flex w-3 h-3 bg-indigo-500 rounded-full me-1.5 flex-shrink-0"></span>
-              <span className="flex w-3 h-3 bg-teal-500 rounded-full me-1.5 flex-shrink-0"></span>
-            </div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <Link href="" className="block relative h-[450px] w-72 rounded overflow-hidden">
-              <Image
-              width={500}
-              height={500}
-                alt="ecommerce"
-                className="object-cover object-center hover:scale-105 transition-transform duration-500 ease-in-out  w-full h-full block"
-                src="/images/product-cover-5 (4).png"
-              />
-            </Link>
-            <div className="mt-4 mr-20 flex flex-col justify-center items-center">
-              <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
-                CATEGORY
-              </h3>
-              <h2 className="text-gray-900 title-font text-lg font-medium">
-                Shooting Stars
-              </h2>
-              <p className="mt-1">$21.15</p>
-            </div>
-            <div className="flex justify-center gap-1 mr-16 mt-2">
-              <span className="flex w-3 h-3 bg-blue-600 rounded-full me-1.5 flex-shrink-0"></span>
-              <span className="flex w-3 h-3 bg-purple-500 rounded-full me-1.5 flex-shrink-0"></span>
-              <span className="flex w-3 h-3 bg-indigo-500 rounded-full me-1.5 flex-shrink-0"></span>
-              <span className="flex w-3 h-3 bg-teal-500 rounded-full me-1.5 flex-shrink-0"></span>
-            </div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <Link href="" className="block relative h-[450px] w-72 rounded overflow-hidden">
-              <Image
-              width={500}
-              height={500}
-                alt="ecommerce"
-                className="object-cover object-center hover:scale-105 transition-transform duration-500 ease-in-out  w-full h-full block"
-                src="/images/product-cover-5 (5).png"
-              />
-            </Link>
-            <div className="mt-4 mr-20 flex flex-col justify-center items-center">
-              <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
-                CATEGORY
-              </h3>
-              <h2 className="text-gray-900 title-font text-lg font-medium">
-                Neptune
-              </h2>
-              <p className="mt-1">$12.00</p>
-            </div>
-            <div className="flex justify-center gap-1 mr-16 mt-2 ">
-              <span className="flex w-3 h-3 bg-blue-600 rounded-full me-1.5 flex-shrink-0"></span>
-              <span className="flex w-3 h-3 bg-purple-500 rounded-full me-1.5 flex-shrink-0"></span>
-              <span className="flex w-3 h-3 bg-indigo-500 rounded-full me-1.5 flex-shrink-0"></span>
-              <span className="flex w-3 h-3 bg-teal-500 rounded-full me-1.5 flex-shrink-0"></span>
-            </div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <Link href="" className="block relative h-[450px] w-72 rounded overflow-hidden">
-              <Image
-              width={500}
-              height={500}
-                alt="ecommerce"
-                className="object-cover object-center hover:scale-105 transition-transform duration-500 ease-in-out  w-full h-full block"
-                src="/images/product-cover-5 (6).png"
-              />
-            </Link>
-            <div className="mt-4 mr-20 flex flex-col justify-center items-center">
-              <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
-                CATEGORY
-              </h3>
-              <h2 className="text-gray-900 title-font text-lg font-medium">
-                The 400 Blows
-              </h2>
-              <p className="mt-1">$18.40</p>
-            </div>
-            <div className="flex justify-center gap-1 mr-16 mt-2">
-              <span className="flex w-3 h-3 bg-blue-600 rounded-full me-1.5 flex-shrink-0"></span>
-              <span className="flex w-3 h-3 bg-purple-500 rounded-full me-1.5 flex-shrink-0"></span>
-              <span className="flex w-3 h-3 bg-indigo-500 rounded-full me-1.5 flex-shrink-0"></span>
-              <span className="flex w-3 h-3 bg-teal-500 rounded-full me-1.5 flex-shrink-0"></span>
-            </div>
-          </div>
+      <div className="flex flex-col md:flex-row lg:flex-row justify-center space-x-0 md:space-x-2 lg:space-x-2 pt-12 ">
+        <div>
+          {/* Large screen */}
+          <Image
+            src="/images/hero-1.png" // Corrected image path
+            alt="hero-1"
+            className="hidden md:block object-cover w-full h-auto md:w-[700px] md:h-[530px] lg:w-[700px] lg:h-[530px] transform transition duration-500 hover:scale-110"
+            width={700}
+            height={530}
+          />
+          {/* Small screen */}
+          <Image
+            src="/images/hero-sm.png" // Corrected image path
+            alt="hero-sm"
+            className="block md:hidden object-cover w-[413px] h-[530px] transform transition duration-500 hover:scale-110"
+            width={413}
+            height={530}
+          />
         </div>
+        <div className="flex flex-row md:flex-col lg:flex-col space-y-[10px]">
+          {/* Large screen image */}
+          <Image
+            src="/images/hero-2.png"
+            alt="hero-2"
+            className="hidden md:block object-cover w-[361px] h-[260px] transform transition duration-500 hover:scale-110" // Hidden on small screens
+            width={361}
+            height={260}
+          />
+          {/* Small screen image */}
+          <Image
+            src="/images/hero-sm-2.png"
+            alt="hero-sm-2"
+            className="block md:hidden  w-full h-auto mr-2 transform transition duration-500 hover:scale-110" // Hidden on larger screens
+            width={204}
+            height={260}
+          />
+          {/* Large screen image */}
+          <Image
+            src="/images/hero-3.png"
+            alt="hero-3"
+            className="hidden md:block object-cover w-[361px] h-[260px] transform transition duration-500 hover:scale-110" // Hidden on small screens
+            width={361}
+            height={260}
+          />
+          {/* Small screen image */}
+          <Image
+            src="/images/hero-sm-3.png"
+            alt="hero-sm-3"
+            className="block md:hidden  w-full h-auto transform transition duration-500 hover:scale-110" // Hidden on larger screens
+            width={204}
+            height={260}
+          />
         </div>
+
+        <div className="flex flex-row md:flex-col lg:flex-col space-y-[10px]">
+          {/* Large screen image */}
+          <Image
+            src="/images/hero-4.png"
+            alt="hero-4"
+            className="hidden md:block object-cover w-[361px] h-[260px] transform transition duration-500 hover:scale-110" // Hidden on small screens
+            width={361}
+            height={260}
+          />
+          {/* Small screen image */}
+          <Image
+            src="/images/hero-sm-4.png"
+            alt="hero-sm-4"
+            className="block md:hidden object-cover w-full h-auto mr-2 transform transition duration-500 hover:scale-110" // Hidden on larger screens
+            width={204}
+            height={260}
+          />
+          {/* Large screen image */}
+          <Image
+            src="/images/hero-5.png"
+            alt="hero-5"
+            className="hidden md:block object-cover w-[361px] h-[260px] transform transition duration-500 hover:scale-110" // Hidden on small screens
+            width={361}
+            height={260}
+          />
+          {/* Small screen image */}
+          <Image
+            src="/images/hero-sm-5.png"
+            alt="hero-sm-5"
+            className="block md:hidden object-cover w-full h-auto transform transition duration-500 hover:scale-110" // Hidden on larger screens
+            width={204}
+            height={260}
+          />
+        </div>
+      </div>
     </div>
   );
 };

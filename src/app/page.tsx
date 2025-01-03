@@ -9,13 +9,13 @@ import Editor from "@/Components/editor";
 export default function Home() {
   return (
     <div>
-      <Hero />
+       <Hero />
       <Editor />
       <Bestselling />
       <Classic />
       <Universe />
       <Post />
-      <Footer />
+      // <Footer /> 
     </div>
   );
 }

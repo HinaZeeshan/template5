@@ -19,7 +19,7 @@ const Bestselling = () => {
           Featured Products
         </h4>
         <h3
-          className={`${montseerat.className} font-bold text-[34px] text-[#252B42]`}
+          className={`${montseerat.className} font-bold text-[20px] sm:[28px] lg:text-[34px] text-[#252B42]`}
         >
           BESTSELLER PRODUCTS
         </h3>

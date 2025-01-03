@@ -1,162 +1,133 @@
 import React from "react";
-import Image from "next/image";
+import Productcard, { Product } from "./Productcard"
 
 
-const products = [
-  {
-    id: 1,
-    name: "Graphic Design",
-    department: "English Department",
-    originalPrice: "$16.48",
-    discountedPrice: "$6.48",
-    colors: ["bg-blue-500", "bg-red-500", "bg-green-500", "bg-yellow-500"],
-    image: "/images/filter.png",
-  },
-  {
-    id: 2,
-    name: "Graphic Design",
-    department: "English Department",
-    originalPrice: "$16.48",
-    discountedPrice: "$6.48",
-    colors: ["bg-blue-500", "bg-red-500", "bg-green-500", "bg-yellow-500"],
-    image: "/images/filter (1).png",
-  },
-  {
-    id: 3,
-    name: "Graphic Design",
-    department: "English Department",
-    originalPrice: "$16.48",
-    discountedPrice: "$6.48",
-    colors: ["bg-blue-500", "bg-red-500", "bg-green-500", "bg-yellow-500"],
-    image: "/images/product-cover-5 (9).png",
-  },
-  {
-    id: 4,
-    name: "Graphic Design",
-    department: "English Department",
-    originalPrice: "$16.48",
-    discountedPrice: "$6.48",
-    colors: ["bg-blue-500", "bg-red-500", "bg-green-500", "bg-yellow-500"],
-    image: "/images/media bg-cover.png",
-  },
-  {
-    id: 5,
-    name: "Graphic Design",
-    department: "English Department",
-    originalPrice: "$16.48",
-    discountedPrice: "$6.48",
-    colors: ["bg-blue-500", "bg-red-500", "bg-green-500", "bg-yellow-500"],
-    image: "/images/product-cover-5 (8).png",
-  },
-  {
-    id: 6,
-    name: "Graphic Design",
-    department: "English Department",
-    originalPrice: "$16.48",
-    discountedPrice: "$6.48",
-    colors: ["bg-blue-500", "bg-red-500", "bg-green-500", "bg-yellow-500"],
-    image: "/images/product-cover-5 (11).png",
-  },
-  {
-    id: 7,
-    name: "Graphic Design",
-    department: "English Department",
-    originalPrice: "$16.48",
-    discountedPrice: "$6.48",
-    colors: ["bg-blue-500", "bg-red-500", "bg-green-500", "bg-yellow-500"],
-    image: "/images/product-cover-5 (12).png",
-  },
-  {
-    id: 8,
-    name: "Graphic Design",
-    department: "English Department",
-    originalPrice: "$16.48",
-    discountedPrice: "$6.48",
-    colors: ["bg-blue-500", "bg-red-500", "bg-green-500", "bg-yellow-500"],
-    image: "/images/product-cover-5 (2).png",
-  },
-  {
-    id: 9,
-    name: "Graphic Design",
-    department: "English Department",
-    originalPrice: "$16.48",
-    discountedPrice: "$6.48",
-    colors: ["bg-blue-500", "bg-red-500", "bg-green-500", "bg-yellow-500"],
-    image: "/images/fixed-height.png",
-  },
-  {
-    id: 10,
-    name: "Graphic Design",
-    department: "English Department",
-    originalPrice: "$16.48",
-    discountedPrice: "$6.48",
-    colors: ["bg-blue-500", "bg-red-500", "bg-green-500", "bg-yellow-500"],
-    image: "/images/product-cover-5 (14).png",
-  },
-  {
-    id: 11,
-    name: "Graphic Design",
-    department: "English Department",
-    originalPrice: "$16.48",
-    discountedPrice: "$6.48",
-    colors: ["bg-blue-500", "bg-red-500", "bg-green-500", "bg-yellow-500"],
-    image: "/images/product-cover-5 (18).png",
-  },
-  {
-    id: 12,
-    name: "Graphic Design",
-    department: "English Department",
-    originalPrice: "$16.48",
-    discountedPrice: "$6.48",
-    colors: ["bg-blue-500", "bg-red-500", "bg-green-500", "bg-yellow-500"],
-    image: "/images/product-cover-5 (31).png",
-  },
-];
 
-const Collection = () => {
+
+
+
+  const Collection: React.FC = () => {
+  const products : Product[] = [
+    {
+      id: 1,
+      name: "Graphic Design",
+      department: "English Department",
+      originalPrice: "$16.48",
+      discountedPrice: "$6.48",
+      colors: ["bg-blue-500", "bg-red-500", "bg-green-500", "bg-yellow-500"],
+      image: "/images/filter.png",
+    },
+   
+       {
+           id: 2,
+           name: "Graphic Design",
+           department: "English Department",
+           originalPrice: "$16.48",
+           discountedPrice: "$6.48",
+           colors: ["bg-blue-500", "bg-red-500", "bg-green-500", "bg-yellow-500"],
+           image: "/images/filter (1).png",
+         },
+         {
+           id: 3,
+           name: "Graphic Design",
+           department: "English Department",
+           originalPrice: "$16.48",
+           discountedPrice: "$6.48",
+           colors: ["bg-blue-500", "bg-red-500", "bg-green-500", "bg-yellow-500"],
+           image: "/images/product-cover-5 (9).png",
+         },
+         {
+           id: 4,
+           name: "Graphic Design",
+           department: "English Department",
+           originalPrice: "$16.48",
+           discountedPrice: "$6.48",
+           colors: ["bg-blue-500", "bg-red-500", "bg-green-500", "bg-yellow-500"],
+           image: "/images/media bg-cover.png",
+         },
+       {
+           id: 5,
+           name: "Graphic Design",
+           department: "English Department",
+           originalPrice: "$16.48",
+           discountedPrice: "$6.48",
+           colors: ["bg-blue-500", "bg-red-500", "bg-green-500", "bg-yellow-500"],
+           image: "/images/product-cover-5 (8).png",
+         },
+         {
+           id: 6,
+           name: "Graphic Design",
+           department: "English Department",
+           originalPrice: "$16.48",
+           discountedPrice: "$6.48",
+          colors: ["bg-blue-500", "bg-red-500", "bg-green-500", "bg-yellow-500"],
+           image: "/images/product-cover-5 (11).png",
+         },
+         {
+           id: 7,
+           name: "Graphic Design",
+           department: "English Department",
+           originalPrice: "$16.48",
+           discountedPrice: "$6.48",
+           colors: ["bg-blue-500", "bg-red-500", "bg-green-500", "bg-yellow-500"],
+           image: "/images/product-cover-5 (12).png",
+         },
+         {
+           id: 8,
+           name: "Graphic Design",
+           department: "English Department",
+           originalPrice: "$16.48",
+           discountedPrice: "$6.48",
+           colors: ["bg-blue-500", "bg-red-500", "bg-green-500", "bg-yellow-500"],
+           image: "/images/product-cover-5 (2).png",
+        },
+         {
+           id: 9,
+           name: "Graphic Design",
+           department: "English Department",
+           originalPrice: "$16.48",
+           discountedPrice: "$6.48",
+           colors: ["bg-blue-500", "bg-red-500", "bg-green-500", "bg-yellow-500"],
+           image: "/images/fixed-height.png",
+         },
+         {
+           id: 10,
+           name: "Graphic Design",
+           department: "English Department",
+           originalPrice: "$16.48",
+           discountedPrice: "$6.48",
+         colors: ["bg-blue-500", "bg-red-500", "bg-green-500", "bg-yellow-500"],
+         image: "/images/product-cover-5 (14).png",
+       },
+       {
+         id: 11,
+         name: "Graphic Design",
+         department: "English Department",
+         originalPrice: "$16.48",
+         discountedPrice: "$6.48",
+         colors: ["bg-blue-500", "bg-red-500", "bg-green-500", "bg-yellow-500"],
+         image: "/images/product-cover-5 (18).png",
+       },
+        {
+          id: 12,
+          name: "Graphic Design",
+          department: "English Department",
+          originalPrice: "$16.48",
+          discountedPrice: "$6.48",
+          colors: ["bg-blue-500", "bg-red-500", "bg-green-500", "bg-yellow-500"],
+           image: "/images/product-cover-5 (31).png",
+         },
+  ];
+
   return (
-    <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2">
-     
-    
-     
-     
-     
-     
-     
-{products.map((product) => (
-        <div
-          key={product.id}
-          className="border rounded-lg p-4 flex flex-col items-center shadow-lg"
-        >
-          <Image
-            src={product.image}
-            alt={product.name}
-            width={288} 
-            height={450} 
-            className="rounded-lg mb-4 object-cover"
-          />
-          <h3 className="text-lg font-bold">{product.name}</h3>
-          <p className="text-gray-500">{product.department}</p>
-          <div className="flex items-center  mt-2">
-            <span className="text-gray-500 line-through">
-              {product.originalPrice}
-            </span>
-            <span className="text-green-500 font-bold">
-              {product.discountedPrice}
-            </span>
-          </div>
-          <div className="flex space-x-2 mt-4">
-            {product.colors.map((color, index) => (
-              <span
-                key={index}
-                className={`w-4 h-4 rounded-full ${color}`}
-              ></span>
-            ))}
-          </div>
-        </div>
-      ))} 
-
-      <nav aria-label="Page navigation ">
+    <div className="container mx-auto p-6">
+      <div className="flex flex-wrap -m-4">
+        {products.map((product) => (
+          <Productcard key={product.id} product={product} />
+        ))}
+      </div>
+{/* for page navigation */}
+<nav aria-label="Page navigation " className="mt-10">
         <ul className="flex  justify-center items-center mx-auto h-10 text-base">
           <li>
             <a
@@ -247,8 +218,17 @@ const Collection = () => {
           </li>
         </ul>
       </nav>
+
+
+
+
     </div>
-  );
+   );
 };
 
 export default Collection;
+
+
+
+
+

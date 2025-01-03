@@ -11,6 +11,7 @@ const page  = () => {
       <Reacticon/>
       <Footer/>
       <Collection/>
+   
     </div>
   )
 }

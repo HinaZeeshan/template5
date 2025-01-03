@@ -76,16 +76,16 @@ const Facts= () => {
 
         <div className="flex justify-center mt-8 space-x-6">
           <a href="#" className="text-gray-500 hover:text-blue-500">
-          <IoLogoInstagram className='text-xl'/>
+          <IoLogoInstagram className='text-2xl text-black'/>
           </a>
           <a href="#" className="text-gray-500 hover:text-blue-500">
-          <FiYoutube className='text-xl' />
+          <FiYoutube className='text-2xl text-red-600' />
           </a>
           <a href="#" className="text-gray-500 hover:text-blue-500">
-          <CiFacebook className='text-xl' />
+          <CiFacebook className='text-2xl text-blue-900' />
           </a>
           <a href="#" className="text-gray-500 hover:text-blue-500">
-          <FiTwitter className='text-xl' />
+          <FiTwitter className='text-2xl text-blue-500' />
           </a>
         </div>
       </div>
